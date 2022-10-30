@@ -1,8 +1,8 @@
 import torch.nn as nn
 
-class ConvNet(nn.Module):
+class ConvNet1(nn.Module):
     def __init__(self):
-        super(ConvNet, self).__init__()
+        super(ConvNet1, self).__init__()
         self.conv_layer1 = nn.Sequential(nn.Conv2d(in_channels=1, out_channels=32, kernel_size=(3, 3)),
                                         nn.BatchNorm2d(32),
                                         nn.MaxPool2d(kernel_size=(2, 2)),
@@ -10,17 +10,10 @@ class ConvNet(nn.Module):
 
         self.conv_layer2 = nn.Sequential(nn.Conv2d(in_channels=32, out_channels=64, kernel_size=(3, 3)),
                                         nn.BatchNorm2d(64),
-                                        nn.ReLU())
-
-        self.conv_layer3 = nn.Sequential(nn.Conv2d(in_channels=64, out_channels=64, kernel_size=(4, 4), padding=1),
-                                        nn.BatchNorm2d(64),
-                                        nn.ReLU(),
-                                        nn.Conv2d(in_channels=64, out_channels=64, kernel_size=(2, 2), padding=1),
-                                        nn.BatchNorm2d(64),
                                         nn.MaxPool2d(kernel_size=(2, 2)),
                                         nn.ReLU())
 
-        self.conv_layer4 = nn.Sequential(nn.Conv2d(in_channels=64, out_channels=128, kernel_size=(3, 3)),
+        self.conv_layer3 = nn.Sequential(nn.Conv2d(in_channels=64, out_channels=128, kernel_size=(3, 3)),
                                         nn.BatchNorm2d(128),
                                         nn.ReLU())
 
@@ -35,7 +28,6 @@ class ConvNet(nn.Module):
         x = self.conv_layer1(x)
         x = self.conv_layer2(x)
         x = self.conv_layer3(x)
-        x = self.conv_layer4(x)
         x = self.linear_layer(x)
 
         return x
