@@ -39,7 +39,7 @@ optimiser = optim.SGD(params, lr=1e-2)
 loss = nn.CrossEntropyLoss()
 
 #data
-train_data = datasets.MNIST('data', train=True, transform=transforms.ToTensor())
+train_data = datasets.MNIST('data', train=True, transform=transforms.ToTensor(), download=True)
 train, val = random_split(train_data, [55000, 5000])
 train_loader = DataLoader(train, batch_size=32)
 val_loader = DataLoader(val, batch_size=32)
