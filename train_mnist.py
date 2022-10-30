@@ -14,7 +14,6 @@ def check_accuracy(loader, model, device):
         for x, y in loader:
             x = x.to(device=device)
             y = y.to(device=device)
-            # x = x.view(x.shape[0], -1)
 
             scores = model(x)
             _, predictions = scores.max(1)
@@ -26,8 +25,8 @@ def check_accuracy(loader, model, device):
 def main():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print(device)
-    batch_size = 64
-    num_epochs = 20
+    batch_size = 128
+    num_epochs = 15
     lr = 0.0005
 
     train_datasets = datasets.MNIST(root='datasets/', train=True, transform=transforms.ToTensor(), download=True)
@@ -41,14 +40,12 @@ def main():
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 
     print("Beginning Training")
-    for _ in range(num_epochs):
+    for epoch in range(num_epochs):
+        print("Epoch: " + str(epoch))
         for img, target in train_loader:
             # Send data to gpu if possible, if not keep on cpu
             img = img.to(device=device)
             target = target.to(device=device)
-
-            # # Ensure size of input is correct
-            # img = img.view(img.shape[0], -1)
 
             # Forward pass
             output = model(img)
