@@ -5,7 +5,7 @@ class MF(nn.Module):
     def __init__(self, num_users, num_items, features):
         super(MF, self).__init__()
 
-        # Creates embedding modules with a shaped based on given number of users or items and the number of features
+        # Creates embedding modules with a shape based on given number of users or items and the number of features
         self.user_embed = nn.Embedding(num_users, features)
         self.item_embed = nn.Embedding(num_items, features)
 
