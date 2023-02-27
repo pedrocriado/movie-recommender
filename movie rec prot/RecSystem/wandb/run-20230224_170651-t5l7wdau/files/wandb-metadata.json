@@ -1,0 +1,36 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2023-02-24T22:06:52.567817",
+    "startedAt": "2023-02-24T22:06:51.131939",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\13059\\OneDrive\\Desktop\\movie rec prot(1)\\RecSystem\\main.py",
+    "codePath": "main.py",
+    "host": "LAPTOP-KC88QO3J",
+    "username": "13059",
+    "executable": "C:\\Users\\13059\\3D Objects\\kdfned\\python.exe",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2103.0,
+        "min": 0.0,
+        "max": 2304.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2103.0,
+            "min": 0.0,
+            "max": 2304.0
+        }
+    ],
+    "disk": {
+        "total": 237.22753524780273,
+        "used": 234.2250213623047
+    },
+    "memory": {
+        "total": 7.818592071533203
+    }
+}

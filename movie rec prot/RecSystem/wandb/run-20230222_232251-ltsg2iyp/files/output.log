@@ -1,0 +1,13 @@
+  0%|          | 0/158 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\main.py", line 63, in <module>
+    evaluate(val_dataloader=val_dataloader, model=model, criterion=criterion, epoch=epoch, opt=opt)
+  File "C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\train_and_eval.py", line 30, in evaluate
+    pred_rating = model(encoded_user_id, encoded_movie_id)
+  File "C:\Users\13059\3D Objects\kdfned\lib\site-packages\torch\nn\modules\module.py", line 1148, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\models.py", line 26, in forward
+    movie_embedding = self.movie_embedding(movie_id)
+  File "C:\Users\13059\3D Objects\kdfned\lib\site-packages\torch\nn\modules\module.py", line 1207, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'MatrixFactorization' object has no attribute 'movie_embedding'

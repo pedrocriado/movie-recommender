@@ -1,0 +1,539 @@
+2023-02-25 00:11:47,450 INFO    StreamThr :8508 [internal.py:wandb_internal():87] W&B internal server running at pid: 8508, started at: 2023-02-25 00:11:47.449334
+2023-02-25 00:11:47,452 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: status
+2023-02-25 00:11:47,462 INFO    WriterThread:8508 [datastore.py:open_for_write():85] open: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\run-orp6kzg0.wandb
+2023-02-25 00:11:47,463 DEBUG   SenderThread:8508 [sender.py:send():336] send: header
+2023-02-25 00:11:47,466 DEBUG   SenderThread:8508 [sender.py:send():336] send: run
+2023-02-25 00:11:47,745 INFO    SenderThread:8508 [dir_watcher.py:__init__():216] watching files in: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files
+2023-02-25 00:11:47,746 INFO    SenderThread:8508 [sender.py:_start_run_threads():1067] run started: orp6kzg0 with start time 1677301907.454333
+2023-02-25 00:11:47,746 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:11:47,747 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:11:47,750 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: check_version
+2023-02-25 00:11:47,751 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: check_version
+2023-02-25 00:11:47,825 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: run_start
+2023-02-25 00:11:47,838 DEBUG   HandlerThread:8508 [system_info.py:__init__():31] System info init
+2023-02-25 00:11:47,839 DEBUG   HandlerThread:8508 [system_info.py:__init__():46] System info init done
+2023-02-25 00:11:47,839 INFO    HandlerThread:8508 [system_monitor.py:start():151] Starting system monitor
+2023-02-25 00:11:47,839 INFO    SystemMonitor:8508 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-25 00:11:47,840 INFO    HandlerThread:8508 [system_monitor.py:probe():172] Collecting system info
+2023-02-25 00:11:47,843 INFO    SystemMonitor:8508 [interfaces.py:start():168] Started cpu
+2023-02-25 00:11:47,843 DEBUG   HandlerThread:8508 [system_info.py:probe():195] Probing system
+2023-02-25 00:11:47,843 INFO    SystemMonitor:8508 [interfaces.py:start():168] Started disk
+2023-02-25 00:11:47,844 INFO    SystemMonitor:8508 [interfaces.py:start():168] Started memory
+2023-02-25 00:11:47,855 INFO    SystemMonitor:8508 [interfaces.py:start():168] Started network
+2023-02-25 00:11:47,858 DEBUG   HandlerThread:8508 [git.py:repo():40] git repository is invalid
+2023-02-25 00:11:47,858 DEBUG   HandlerThread:8508 [system_info.py:probe():241] Probing system done
+2023-02-25 00:11:47,858 DEBUG   HandlerThread:8508 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.19044-SP0', 'python': '3.9.12', 'heartbeatAt': '2023-02-25T05:11:47.843580', 'startedAt': '2023-02-25T05:11:47.401554', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\13059\\OneDrive\\Desktop\\movie rec prot(1)\\RecSystem\\main.py', 'codePath': 'main.py', 'host': 'LAPTOP-KC88QO3J', 'username': '13059', 'executable': 'C:\\Users\\13059\\3D Objects\\kdfned\\python.exe', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2103.0, 'min': 0.0, 'max': 2304.0}, 'cpu_freq_per_core': [{'current': 2103.0, 'min': 0.0, 'max': 2304.0}], 'disk': {'total': 237.22753524780273, 'used': 234.77367782592773}, 'memory': {'total': 7.818592071533203}}
+2023-02-25 00:11:47,858 INFO    HandlerThread:8508 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-25 00:11:47,858 INFO    HandlerThread:8508 [system_monitor.py:probe():185] Publishing system info
+2023-02-25 00:11:47,858 DEBUG   HandlerThread:8508 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-25 00:11:47,860 DEBUG   HandlerThread:8508 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-25 00:11:47,860 DEBUG   HandlerThread:8508 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-02-25 00:11:48,761 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\requirements.txt
+2023-02-25 00:11:48,762 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\conda-environment.yaml
+2023-02-25 00:11:48,762 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\wandb-summary.json
+2023-02-25 00:12:03,293 DEBUG   HandlerThread:8508 [system_info.py:_save_conda():86] Saving conda packages done
+2023-02-25 00:12:03,294 INFO    HandlerThread:8508 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-25 00:12:03,356 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: status_report
+2023-02-25 00:12:03,356 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-25 00:12:03,357 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: status_report
+2023-02-25 00:12:03,357 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-25 00:12:03,357 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: status_report
+2023-02-25 00:12:03,357 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-25 00:12:03,358 DEBUG   SenderThread:8508 [sender.py:send():336] send: files
+2023-02-25 00:12:03,358 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-02-25 00:12:03,371 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-25 00:12:03,372 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: stop_status
+2023-02-25 00:12:03,484 DEBUG   SenderThread:8508 [sender.py:send():336] send: telemetry
+2023-02-25 00:12:03,485 DEBUG   SenderThread:8508 [sender.py:send():336] send: telemetry
+2023-02-25 00:12:03,485 DEBUG   SenderThread:8508 [sender.py:send():336] send: run
+2023-02-25 00:12:03,528 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-25 00:12:03,641 INFO    SenderThread:8508 [sender.py:send_run():944] updated run: orp6kzg0
+2023-02-25 00:12:03,641 DEBUG   SenderThread:8508 [sender.py:send():336] send: telemetry
+2023-02-25 00:12:03,644 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: log_artifact
+2023-02-25 00:12:03,809 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:03,825 INFO    wandb-upload_0:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmpdxy_v5_wwandb\k4w5zwtj-wandb-metadata.json
+2023-02-25 00:12:03,878 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\config.yaml
+2023-02-25 00:12:03,879 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\conda-environment.yaml
+2023-02-25 00:12:03,879 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\output.log
+2023-02-25 00:12:03,880 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_0_fa3d24de2bcd08fbfd85.table.json
+2023-02-25 00:12:03,880 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\wandb-metadata.json
+2023-02-25 00:12:03,881 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table
+2023-02-25 00:12:03,881 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media
+2023-02-25 00:12:03,996 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:04,012 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:04,147 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-25 00:12:04,166 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:04,384 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:04,598 INFO    wandb-upload_0:8508 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmpd3whgn3i
+2023-02-25 00:12:04,815 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:04,891 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_3_5575291fd19b3c4e9188.table.json
+2023-02-25 00:12:04,891 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table
+2023-02-25 00:12:05,214 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:05,297 INFO    SenderThread:8508 [sender.py:send_request_log_artifact():1381] logged artifact run-orp6kzg0-Predictions - {'id': 'QXJ0aWZhY3Q6MzgxMDc1NjUz', 'digest': 'ed2653f13295de7e2c44c78801b751e0', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0NzUzMjkx', 'latestArtifact': None}, 'version': 'latest'}
+2023-02-25 00:12:05,297 DEBUG   SenderThread:8508 [sender.py:send():336] send: files
+2023-02-25 00:12:05,297 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file media\table\Predictions_0_fa3d24de2bcd08fbfd85.table.json with policy now
+2023-02-25 00:12:05,299 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:05,299 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:05,302 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:05,305 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:05,309 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:05,311 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:05,312 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:05,313 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:05,314 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:05,315 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: log_artifact
+2023-02-25 00:12:05,693 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:05,783 INFO    wandb-upload_0:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmpdxy_v5_wwandb\5mgphwqp-media/table/Predictions_0_fa3d24de2bcd08fbfd85.table.json
+2023-02-25 00:12:05,908 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\output.log
+2023-02-25 00:12:05,908 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\wandb-summary.json
+2023-02-25 00:12:06,122 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:06,180 INFO    wandb-upload_1:8508 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmpxe9r3chd
+2023-02-25 00:12:06,543 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:06,954 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:06,959 INFO    SenderThread:8508 [sender.py:send_request_log_artifact():1381] logged artifact run-orp6kzg0-Predictions - {'id': 'QXJ0aWZhY3Q6MzgxMDc1Njcw', 'digest': '0c1a0cea7a99eb1a38ec9bb214595025', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0NzUzMjkx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzgxMDc1NjUz', 'versionIndex': 0}}, 'version': 'latest'}
+2023-02-25 00:12:06,959 DEBUG   SenderThread:8508 [sender.py:send():336] send: files
+2023-02-25 00:12:06,959 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file media\table\Predictions_3_5575291fd19b3c4e9188.table.json with policy now
+2023-02-25 00:12:06,961 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:06,961 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:06,963 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:06,964 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:06,964 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:06,966 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:06,966 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:06,967 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:06,972 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:06,973 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:06,973 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:06,976 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:06,977 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:06,977 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:06,978 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:06,979 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:06,979 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:06,981 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:06,982 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:06,982 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:06,983 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:06,984 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:06,984 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:06,986 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:07,250 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-25 00:12:07,251 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: log_artifact
+2023-02-25 00:12:07,280 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:07,304 INFO    wandb-upload_0:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmpdxy_v5_wwandb\rlvo277e-media/table/Predictions_3_5575291fd19b3c4e9188.table.json
+2023-02-25 00:12:07,343 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:07,352 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:07,498 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:07,512 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:07,638 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-25 00:12:07,663 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:07,894 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:07,933 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\output.log
+2023-02-25 00:12:07,934 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\wandb-summary.json
+2023-02-25 00:12:07,934 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_14_ce3d2b22b28a2b988e43.table.json
+2023-02-25 00:12:07,934 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_11_8b5fea0eab725ed02638.table.json
+2023-02-25 00:12:07,935 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table
+2023-02-25 00:12:08,154 INFO    wandb-upload_1:8508 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmpxtc81joi
+2023-02-25 00:12:08,329 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:08,728 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:08,812 INFO    SenderThread:8508 [sender.py:send_request_log_artifact():1381] logged artifact run-orp6kzg0-Predictions - {'id': 'QXJ0aWZhY3Q6MzgxMDc1Njgy', 'digest': '07df714d7e565a20b5be70dea7472361', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0NzUzMjkx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzgxMDc1Njcw', 'versionIndex': 1}}, 'version': 'latest'}
+2023-02-25 00:12:08,813 DEBUG   SenderThread:8508 [sender.py:send():336] send: files
+2023-02-25 00:12:08,813 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: status_report
+2023-02-25 00:12:08,813 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file media\table\Predictions_11_8b5fea0eab725ed02638.table.json with policy now
+2023-02-25 00:12:08,815 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:08,816 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:08,817 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:08,818 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:08,819 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:08,821 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:08,822 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:08,823 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:08,824 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:08,825 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: log_artifact
+2023-02-25 00:12:08,947 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\wandb-summary.json
+2023-02-25 00:12:09,168 INFO    wandb-upload_0:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmpdxy_v5_wwandb\gnnsr4vy-media/table/Predictions_11_8b5fea0eab725ed02638.table.json
+2023-02-25 00:12:09,191 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:09,483 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:09,486 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:09,634 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:09,743 INFO    wandb-upload_1:8508 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmp6jyo83z7
+2023-02-25 00:12:09,958 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\output.log
+2023-02-25 00:12:10,041 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:10,450 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:10,689 INFO    SenderThread:8508 [sender.py:send_request_log_artifact():1381] logged artifact run-orp6kzg0-Predictions - {'id': 'QXJ0aWZhY3Q6MzgxMDc1Njk4', 'digest': '8914bc7269152cbb435dcd38db8e85b8', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0NzUzMjkx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzgxMDc1Njgy', 'versionIndex': 2}}, 'version': 'latest'}
+2023-02-25 00:12:10,689 DEBUG   SenderThread:8508 [sender.py:send():336] send: files
+2023-02-25 00:12:10,689 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file media\table\Predictions_14_ce3d2b22b28a2b988e43.table.json with policy now
+2023-02-25 00:12:10,690 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:10,690 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:10,692 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:10,693 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:10,693 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:10,695 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:10,696 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:10,696 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:10,697 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:10,698 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:10,698 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:10,700 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:10,700 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:10,701 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:10,702 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:10,705 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:10,706 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:10,707 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:10,708 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:10,708 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:10,711 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:10,711 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:10,712 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:10,713 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:10,719 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-25 00:12:10,719 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: log_artifact
+2023-02-25 00:12:10,742 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:10,878 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:10,897 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:10,966 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:10,978 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\wandb-summary.json
+2023-02-25 00:12:10,979 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_22_9d7b3d550fe7e0bc738d.table.json
+2023-02-25 00:12:10,979 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table
+2023-02-25 00:12:10,980 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:11,050 INFO    wandb-upload_0:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmpdxy_v5_wwandb\cvb8mge7-media/table/Predictions_14_ce3d2b22b28a2b988e43.table.json
+2023-02-25 00:12:11,112 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-25 00:12:11,134 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:11,356 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:11,681 INFO    wandb-upload_1:8508 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmpmmi863as
+2023-02-25 00:12:11,786 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:11,995 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\output.log
+2023-02-25 00:12:11,995 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_25_65c412b225ebff237cf5.table.json
+2023-02-25 00:12:11,996 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table
+2023-02-25 00:12:12,194 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:12,380 INFO    SenderThread:8508 [sender.py:send_request_log_artifact():1381] logged artifact run-orp6kzg0-Predictions - {'id': 'QXJ0aWZhY3Q6MzgxMDc1NzEx', 'digest': '5962956fe30505fe8c12a96dfff45529', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0NzUzMjkx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzgxMDc1Njk4', 'versionIndex': 3}}, 'version': 'latest'}
+2023-02-25 00:12:12,381 DEBUG   SenderThread:8508 [sender.py:send():336] send: files
+2023-02-25 00:12:12,381 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file media\table\Predictions_22_9d7b3d550fe7e0bc738d.table.json with policy now
+2023-02-25 00:12:12,382 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:12,383 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:12,385 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:12,386 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:12,387 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:12,389 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:12,394 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:12,395 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:12,397 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:12,398 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: log_artifact
+2023-02-25 00:12:12,639 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:12,727 INFO    wandb-upload_0:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmpdxy_v5_wwandb\swbxrb0x-media/table/Predictions_22_9d7b3d550fe7e0bc738d.table.json
+2023-02-25 00:12:13,010 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\wandb-summary.json
+2023-02-25 00:12:13,067 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:13,473 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:13,572 INFO    wandb-upload_1:8508 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmp75ouo5vi
+2023-02-25 00:12:13,939 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:14,021 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\output.log
+2023-02-25 00:12:14,321 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-25 00:12:14,341 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:14,378 INFO    SenderThread:8508 [sender.py:send_request_log_artifact():1381] logged artifact run-orp6kzg0-Predictions - {'id': 'QXJ0aWZhY3Q6MzgxMDc1NzI3', 'digest': '20ffdb46664e38ca41b6c50c35c6335f', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0NzUzMjkx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzgxMDc1NzEx', 'versionIndex': 4}}, 'version': 'latest'}
+2023-02-25 00:12:14,378 DEBUG   SenderThread:8508 [sender.py:send():336] send: files
+2023-02-25 00:12:14,378 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: status_report
+2023-02-25 00:12:14,378 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file media\table\Predictions_25_65c412b225ebff237cf5.table.json with policy now
+2023-02-25 00:12:14,381 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:14,381 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:14,383 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:14,384 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:14,385 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:14,386 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:14,387 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:14,389 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:14,392 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:14,392 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:14,393 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:14,394 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:14,394 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:14,395 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:14,396 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:14,396 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:14,397 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:14,398 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:14,398 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:14,398 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:14,400 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:14,400 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:14,400 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:14,402 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:14,402 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: log_artifact
+2023-02-25 00:12:14,521 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:14,532 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:14,541 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:14,546 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:14,815 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-25 00:12:14,832 INFO    wandb-upload_0:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmpdxy_v5_wwandb\yh2eun2g-media/table/Predictions_25_65c412b225ebff237cf5.table.json
+2023-02-25 00:12:14,851 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:15,031 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\wandb-summary.json
+2023-02-25 00:12:15,032 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_36_434626f2ee8760087514.table.json
+2023-02-25 00:12:15,032 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_33_b72ca08df3e85b7c9023.table.json
+2023-02-25 00:12:15,032 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table
+2023-02-25 00:12:15,036 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:15,453 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:15,486 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:15,488 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:15,652 INFO    wandb-upload_1:8508 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmpvflgwr4t
+2023-02-25 00:12:15,880 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:16,045 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\output.log
+2023-02-25 00:12:16,240 INFO    SenderThread:8508 [sender.py:send_request_log_artifact():1381] logged artifact run-orp6kzg0-Predictions - {'id': 'QXJ0aWZhY3Q6MzgxMDc1NzQ3', 'digest': '5d3bccea6dfdb9ab1e8dc92b89bfed8f', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0NzUzMjkx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzgxMDc1NzI3', 'versionIndex': 5}}, 'version': 'latest'}
+2023-02-25 00:12:16,240 DEBUG   SenderThread:8508 [sender.py:send():336] send: files
+2023-02-25 00:12:16,240 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file media\table\Predictions_33_b72ca08df3e85b7c9023.table.json with policy now
+2023-02-25 00:12:16,242 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:16,242 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:16,244 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:16,245 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:16,246 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:16,248 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:16,249 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:16,250 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:16,255 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:16,256 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: log_artifact
+2023-02-25 00:12:16,285 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:16,594 INFO    wandb-upload_0:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmpdxy_v5_wwandb\ekn8tz7y-media/table/Predictions_33_b72ca08df3e85b7c9023.table.json
+2023-02-25 00:12:16,692 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:17,050 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\wandb-summary.json
+2023-02-25 00:12:17,100 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:17,188 INFO    wandb-upload_1:8508 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmp37aufplm
+2023-02-25 00:12:17,527 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:17,781 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-25 00:12:17,798 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:17,897 INFO    SenderThread:8508 [sender.py:send_request_log_artifact():1381] logged artifact run-orp6kzg0-Predictions - {'id': 'QXJ0aWZhY3Q6MzgxMDc1NzYx', 'digest': '9aecb57864e71d0bdc975028eb3a9467', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0NzUzMjkx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzgxMDc1NzQ3', 'versionIndex': 6}}, 'version': 'latest'}
+2023-02-25 00:12:17,897 DEBUG   SenderThread:8508 [sender.py:send():336] send: files
+2023-02-25 00:12:17,897 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file media\table\Predictions_36_434626f2ee8760087514.table.json with policy now
+2023-02-25 00:12:17,898 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:17,899 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:17,901 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:17,902 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:17,902 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:17,904 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:17,905 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:17,905 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:17,907 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:17,908 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:17,908 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:17,910 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:17,911 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:17,911 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:17,912 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:17,913 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:17,913 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:17,918 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:17,919 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:17,919 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:17,920 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:17,921 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:17,921 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:17,923 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:17,923 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: log_artifact
+2023-02-25 00:12:17,998 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:18,013 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:18,064 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\output.log
+2023-02-25 00:12:18,065 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\wandb-summary.json
+2023-02-25 00:12:18,065 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_44_3c1ce868b535ad093f4b.table.json
+2023-02-25 00:12:18,065 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table
+2023-02-25 00:12:18,144 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-25 00:12:18,164 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:18,247 INFO    wandb-upload_0:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmpdxy_v5_wwandb\9jht41j3-media/table/Predictions_36_434626f2ee8760087514.table.json
+2023-02-25 00:12:18,254 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:18,263 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:18,377 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-25 00:12:18,378 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-25 00:12:18,419 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:18,814 INFO    wandb-upload_1:8508 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmpy__236u3
+2023-02-25 00:12:18,834 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:19,067 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_47_0f4f52c15ca7e94996a6.table.json
+2023-02-25 00:12:19,068 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table
+2023-02-25 00:12:19,243 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:19,430 INFO    SenderThread:8508 [sender.py:send_request_log_artifact():1381] logged artifact run-orp6kzg0-Predictions - {'id': 'QXJ0aWZhY3Q6MzgxMDc1Nzgw', 'digest': '211032f0d01c8deac33d8a59a96494f6', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0NzUzMjkx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzgxMDc1NzYx', 'versionIndex': 7}}, 'version': 'latest'}
+2023-02-25 00:12:19,437 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: status_report
+2023-02-25 00:12:19,563 DEBUG   SenderThread:8508 [sender.py:send():336] send: files
+2023-02-25 00:12:19,563 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file media\table\Predictions_44_3c1ce868b535ad093f4b.table.json with policy now
+2023-02-25 00:12:19,564 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:19,565 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:19,567 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:19,568 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:19,568 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:19,570 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:19,572 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:19,572 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:19,574 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:19,574 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: log_artifact
+2023-02-25 00:12:19,704 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:19,923 INFO    wandb-upload_0:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmpdxy_v5_wwandb\47r77173-media/table/Predictions_44_3c1ce868b535ad093f4b.table.json
+2023-02-25 00:12:20,071 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\output.log
+2023-02-25 00:12:20,072 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\config.yaml
+2023-02-25 00:12:20,072 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\wandb-summary.json
+2023-02-25 00:12:20,116 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:20,439 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:20,440 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:20,543 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:20,561 INFO    wandb-upload_1:8508 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmp4_llt2yg
+2023-02-25 00:12:20,985 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-25 00:12:21,135 INFO    SenderThread:8508 [sender.py:send_request_log_artifact():1381] logged artifact run-orp6kzg0-Predictions - {'id': 'QXJ0aWZhY3Q6MzgxMDc1Nzkz', 'digest': 'fe226125c4ebc1638bdfbfbd478e9b18', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0NzUzMjkx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzgxMDc1Nzgw', 'versionIndex': 8}}, 'version': 'latest'}
+2023-02-25 00:12:21,136 DEBUG   SenderThread:8508 [sender.py:send():336] send: files
+2023-02-25 00:12:21,136 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file media\table\Predictions_47_0f4f52c15ca7e94996a6.table.json with policy now
+2023-02-25 00:12:21,137 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:21,137 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:21,139 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:21,140 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:21,141 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:21,143 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:21,143 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:21,143 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:21,145 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:21,145 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:21,145 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:21,147 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:21,147 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:21,148 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:21,149 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:21,150 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:21,150 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:21,154 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:21,155 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:21,156 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:21,158 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:21,158 DEBUG   SenderThread:8508 [sender.py:send():336] send: history
+2023-02-25 00:12:21,159 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 00:12:21,161 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:21,161 DEBUG   SenderThread:8508 [sender.py:send():336] send: exit
+2023-02-25 00:12:21,161 INFO    SenderThread:8508 [sender.py:send_exit():559] handling exit code: 0
+2023-02-25 00:12:21,161 INFO    SenderThread:8508 [sender.py:send_exit():561] handling runtime: 33
+2023-02-25 00:12:21,163 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:21,163 INFO    SenderThread:8508 [sender.py:send_exit():567] send defer
+2023-02-25 00:12:21,163 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: defer
+2023-02-25 00:12:21,163 INFO    HandlerThread:8508 [handler.py:handle_request_defer():170] handle defer: 0
+2023-02-25 00:12:21,164 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: defer
+2023-02-25 00:12:21,164 INFO    SenderThread:8508 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-02-25 00:12:21,164 INFO    SenderThread:8508 [sender.py:transition_state():587] send defer: 1
+2023-02-25 00:12:21,164 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: defer
+2023-02-25 00:12:21,164 INFO    HandlerThread:8508 [handler.py:handle_request_defer():170] handle defer: 1
+2023-02-25 00:12:21,165 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: defer
+2023-02-25 00:12:21,165 INFO    SenderThread:8508 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-02-25 00:12:21,165 INFO    SenderThread:8508 [sender.py:transition_state():587] send defer: 2
+2023-02-25 00:12:21,165 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: defer
+2023-02-25 00:12:21,165 INFO    HandlerThread:8508 [handler.py:handle_request_defer():170] handle defer: 2
+2023-02-25 00:12:21,165 INFO    HandlerThread:8508 [system_monitor.py:finish():161] Stopping system monitor
+2023-02-25 00:12:21,166 DEBUG   SystemMonitor:8508 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-25 00:12:21,166 DEBUG   SystemMonitor:8508 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-25 00:12:21,166 DEBUG   SystemMonitor:8508 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-25 00:12:21,166 INFO    HandlerThread:8508 [interfaces.py:finish():175] Joined cpu
+2023-02-25 00:12:21,167 INFO    HandlerThread:8508 [interfaces.py:finish():175] Joined disk
+2023-02-25 00:12:21,167 INFO    HandlerThread:8508 [interfaces.py:finish():175] Joined memory
+2023-02-25 00:12:21,167 INFO    HandlerThread:8508 [interfaces.py:finish():175] Joined network
+2023-02-25 00:12:21,168 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: defer
+2023-02-25 00:12:21,168 INFO    SenderThread:8508 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-02-25 00:12:21,168 INFO    SenderThread:8508 [sender.py:transition_state():587] send defer: 3
+2023-02-25 00:12:21,168 DEBUG   SenderThread:8508 [sender.py:send():336] send: stats
+2023-02-25 00:12:21,168 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: defer
+2023-02-25 00:12:21,169 INFO    HandlerThread:8508 [handler.py:handle_request_defer():170] handle defer: 3
+2023-02-25 00:12:21,169 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: defer
+2023-02-25 00:12:21,169 INFO    SenderThread:8508 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-02-25 00:12:21,169 INFO    SenderThread:8508 [sender.py:transition_state():587] send defer: 4
+2023-02-25 00:12:21,169 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: defer
+2023-02-25 00:12:21,169 INFO    HandlerThread:8508 [handler.py:handle_request_defer():170] handle defer: 4
+2023-02-25 00:12:21,170 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: defer
+2023-02-25 00:12:21,170 INFO    SenderThread:8508 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-02-25 00:12:21,170 INFO    SenderThread:8508 [sender.py:transition_state():587] send defer: 5
+2023-02-25 00:12:21,170 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: defer
+2023-02-25 00:12:21,170 INFO    HandlerThread:8508 [handler.py:handle_request_defer():170] handle defer: 5
+2023-02-25 00:12:21,173 DEBUG   SenderThread:8508 [sender.py:send():336] send: summary
+2023-02-25 00:12:21,175 INFO    SenderThread:8508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 00:12:21,176 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: defer
+2023-02-25 00:12:21,176 INFO    SenderThread:8508 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-02-25 00:12:21,176 INFO    SenderThread:8508 [sender.py:transition_state():587] send defer: 6
+2023-02-25 00:12:21,176 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: defer
+2023-02-25 00:12:21,176 INFO    HandlerThread:8508 [handler.py:handle_request_defer():170] handle defer: 6
+2023-02-25 00:12:21,177 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: defer
+2023-02-25 00:12:21,177 INFO    SenderThread:8508 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-02-25 00:12:21,178 INFO    SenderThread:8508 [sender.py:transition_state():587] send defer: 7
+2023-02-25 00:12:21,178 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: status_report
+2023-02-25 00:12:21,178 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: defer
+2023-02-25 00:12:21,178 INFO    HandlerThread:8508 [handler.py:handle_request_defer():170] handle defer: 7
+2023-02-25 00:12:21,179 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: defer
+2023-02-25 00:12:21,179 INFO    SenderThread:8508 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-02-25 00:12:21,506 INFO    wandb-upload_0:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmpdxy_v5_wwandb\3vpcgs2f-media/table/Predictions_47_0f4f52c15ca7e94996a6.table.json
+2023-02-25 00:12:22,098 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\output.log
+2023-02-25 00:12:22,098 INFO    Thread-17 :8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\wandb-summary.json
+2023-02-25 00:12:22,127 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-25 00:12:23,411 INFO    SenderThread:8508 [sender.py:transition_state():587] send defer: 8
+2023-02-25 00:12:23,412 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: poll_exit
+2023-02-25 00:12:23,414 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: defer
+2023-02-25 00:12:23,417 INFO    HandlerThread:8508 [handler.py:handle_request_defer():170] handle defer: 8
+2023-02-25 00:12:23,418 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: defer
+2023-02-25 00:12:23,419 INFO    SenderThread:8508 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-02-25 00:12:23,422 INFO    SenderThread:8508 [sender.py:transition_state():587] send defer: 9
+2023-02-25 00:12:23,423 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: defer
+2023-02-25 00:12:23,424 INFO    HandlerThread:8508 [handler.py:handle_request_defer():170] handle defer: 9
+2023-02-25 00:12:23,425 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: defer
+2023-02-25 00:12:23,425 INFO    SenderThread:8508 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-02-25 00:12:23,425 INFO    SenderThread:8508 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-02-25 00:12:24,115 INFO    SenderThread:8508 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\output.log
+2023-02-25 00:12:24,122 INFO    SenderThread:8508 [dir_watcher.py:finish():392] scan: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files
+2023-02-25 00:12:24,124 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\conda-environment.yaml conda-environment.yaml
+2023-02-25 00:12:24,125 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\config.yaml config.yaml
+2023-02-25 00:12:24,136 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\output.log output.log
+2023-02-25 00:12:24,143 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\requirements.txt requirements.txt
+2023-02-25 00:12:24,150 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\wandb-metadata.json wandb-metadata.json
+2023-02-25 00:12:24,151 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\wandb-summary.json wandb-summary.json
+2023-02-25 00:12:24,161 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_0_fa3d24de2bcd08fbfd85.table.json media\table\Predictions_0_fa3d24de2bcd08fbfd85.table.json
+2023-02-25 00:12:24,161 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_11_8b5fea0eab725ed02638.table.json media\table\Predictions_11_8b5fea0eab725ed02638.table.json
+2023-02-25 00:12:24,162 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_14_ce3d2b22b28a2b988e43.table.json media\table\Predictions_14_ce3d2b22b28a2b988e43.table.json
+2023-02-25 00:12:24,163 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_22_9d7b3d550fe7e0bc738d.table.json media\table\Predictions_22_9d7b3d550fe7e0bc738d.table.json
+2023-02-25 00:12:24,163 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_25_65c412b225ebff237cf5.table.json media\table\Predictions_25_65c412b225ebff237cf5.table.json
+2023-02-25 00:12:24,163 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_33_b72ca08df3e85b7c9023.table.json media\table\Predictions_33_b72ca08df3e85b7c9023.table.json
+2023-02-25 00:12:24,163 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_36_434626f2ee8760087514.table.json media\table\Predictions_36_434626f2ee8760087514.table.json
+2023-02-25 00:12:24,164 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_3_5575291fd19b3c4e9188.table.json media\table\Predictions_3_5575291fd19b3c4e9188.table.json
+2023-02-25 00:12:24,164 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_44_3c1ce868b535ad093f4b.table.json media\table\Predictions_44_3c1ce868b535ad093f4b.table.json
+2023-02-25 00:12:24,164 INFO    SenderThread:8508 [dir_watcher.py:finish():406] scan save: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\media\table\Predictions_47_0f4f52c15ca7e94996a6.table.json media\table\Predictions_47_0f4f52c15ca7e94996a6.table.json
+2023-02-25 00:12:24,164 INFO    SenderThread:8508 [sender.py:transition_state():587] send defer: 10
+2023-02-25 00:12:24,165 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: defer
+2023-02-25 00:12:24,165 INFO    HandlerThread:8508 [handler.py:handle_request_defer():170] handle defer: 10
+2023-02-25 00:12:24,165 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: defer
+2023-02-25 00:12:24,165 INFO    SenderThread:8508 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-02-25 00:12:24,165 INFO    SenderThread:8508 [file_pusher.py:finish():162] shutting down file pusher
+2023-02-25 00:12:24,500 INFO    wandb-upload_1:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\conda-environment.yaml
+2023-02-25 00:12:24,577 INFO    wandb-upload_0:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\config.yaml
+2023-02-25 00:12:24,587 INFO    wandb-upload_3:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\requirements.txt
+2023-02-25 00:12:24,605 INFO    wandb-upload_4:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\wandb-summary.json
+2023-02-25 00:12:24,610 INFO    wandb-upload_2:8508 [upload_job.py:push():138] Uploaded file C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\files\output.log
+2023-02-25 00:12:24,825 INFO    Thread-16 :8508 [sender.py:transition_state():587] send defer: 11
+2023-02-25 00:12:24,826 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: defer
+2023-02-25 00:12:24,826 INFO    HandlerThread:8508 [handler.py:handle_request_defer():170] handle defer: 11
+2023-02-25 00:12:24,827 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: defer
+2023-02-25 00:12:24,827 INFO    SenderThread:8508 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-02-25 00:12:24,827 INFO    SenderThread:8508 [file_pusher.py:join():167] waiting for file pusher
+2023-02-25 00:12:24,828 INFO    SenderThread:8508 [sender.py:transition_state():587] send defer: 12
+2023-02-25 00:12:24,828 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: defer
+2023-02-25 00:12:24,829 INFO    HandlerThread:8508 [handler.py:handle_request_defer():170] handle defer: 12
+2023-02-25 00:12:24,830 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: defer
+2023-02-25 00:12:24,830 INFO    SenderThread:8508 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-02-25 00:12:24,911 INFO    SenderThread:8508 [sender.py:transition_state():587] send defer: 13
+2023-02-25 00:12:24,912 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: defer
+2023-02-25 00:12:24,912 INFO    HandlerThread:8508 [handler.py:handle_request_defer():170] handle defer: 13
+2023-02-25 00:12:24,913 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: defer
+2023-02-25 00:12:24,913 INFO    SenderThread:8508 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-02-25 00:12:24,914 INFO    SenderThread:8508 [sender.py:transition_state():587] send defer: 14
+2023-02-25 00:12:24,915 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: defer
+2023-02-25 00:12:24,915 INFO    HandlerThread:8508 [handler.py:handle_request_defer():170] handle defer: 14
+2023-02-25 00:12:24,917 DEBUG   SenderThread:8508 [sender.py:send():336] send: final
+2023-02-25 00:12:24,917 DEBUG   SenderThread:8508 [sender.py:send():336] send: footer
+2023-02-25 00:12:24,917 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: defer
+2023-02-25 00:12:24,918 INFO    SenderThread:8508 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-02-25 00:12:24,921 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-25 00:12:24,921 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: server_info
+2023-02-25 00:12:24,921 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: get_summary
+2023-02-25 00:12:24,924 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: sampled_history
+2023-02-25 00:12:24,927 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: poll_exit
+2023-02-25 00:12:24,928 DEBUG   SenderThread:8508 [sender.py:send_request():363] send_request: server_info
+2023-02-25 00:12:25,032 INFO    MainThread:8508 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-02-25 00:12:25,033 INFO    MainThread:8508 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-02-25 00:12:25,033 INFO    MainThread:8508 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-02-25 00:12:25,034 DEBUG   HandlerThread:8508 [handler.py:handle_request():144] handle_request: shutdown
+2023-02-25 00:12:25,034 INFO    HandlerThread:8508 [handler.py:finish():841] shutting down handler
+2023-02-25 00:12:25,938 INFO    WriterThread:8508 [datastore.py:close():299] close: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230225_001147-orp6kzg0\run-orp6kzg0.wandb
+2023-02-25 00:12:26,035 INFO    SenderThread:8508 [sender.py:finish():1493] shutting down sender
+2023-02-25 00:12:26,036 INFO    SenderThread:8508 [file_pusher.py:finish():162] shutting down file pusher
+2023-02-25 00:12:26,036 INFO    SenderThread:8508 [file_pusher.py:join():167] waiting for file pusher

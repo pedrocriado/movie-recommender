@@ -1,0 +1,25 @@
+2023-02-18 23:02:49,279 INFO    MainThread:14944 [wandb_setup.py:_flush():68] Configure stats pid to 14944
+2023-02-18 23:02:49,280 INFO    MainThread:14944 [wandb_setup.py:_flush():68] Loading settings from C:\Users\13059\.config\wandb\settings
+2023-02-18 23:02:49,280 INFO    MainThread:14944 [wandb_setup.py:_flush():68] Loading settings from C:\Users\13059\OneDrive\Desktop\RecSystem\RecSystem\wandb\settings
+2023-02-18 23:02:49,281 INFO    MainThread:14944 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-18 23:02:49,281 INFO    MainThread:14944 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'C:\\Users\\13059\\OneDrive\\Desktop\\RecSystem\\RecSystem\\main.py'}
+2023-02-18 23:02:49,281 INFO    MainThread:14944 [wandb_init.py:_log_setup():478] Logging user logs to C:\Users\13059\OneDrive\Desktop\RecSystem\RecSystem\wandb\run-20230218_230249-dd2t75a7\logs\debug.log
+2023-02-18 23:02:49,281 INFO    MainThread:14944 [wandb_init.py:_log_setup():479] Logging internal logs to C:\Users\13059\OneDrive\Desktop\RecSystem\RecSystem\wandb\run-20230218_230249-dd2t75a7\logs\debug-internal.log
+2023-02-18 23:02:49,282 INFO    MainThread:14944 [wandb_init.py:init():518] calling init triggers
+2023-02-18 23:02:49,282 INFO    MainThread:14944 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'epochs': 20, 'batch_size': 128, 'architecture': 'MF'}
+2023-02-18 23:02:49,282 INFO    MainThread:14944 [wandb_init.py:init():571] starting backend
+2023-02-18 23:02:49,282 INFO    MainThread:14944 [wandb_init.py:init():575] setting up manager
+2023-02-18 23:02:49,327 INFO    MainThread:14944 [wandb_init.py:init():582] backend started and connected
+2023-02-18 23:02:49,336 INFO    MainThread:14944 [wandb_init.py:init():670] updated telemetry
+2023-02-18 23:02:49,341 INFO    MainThread:14944 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-02-18 23:02:49,646 INFO    MainThread:14944 [wandb_run.py:_on_init():2121] communicating current version
+2023-02-18 23:02:49,767 INFO    MainThread:14944 [wandb_run.py:_on_init():2125] got version response upgrade_message: "wandb version 0.13.10 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-02-18 23:02:49,767 INFO    MainThread:14944 [wandb_init.py:init():758] starting run threads in backend
+2023-02-18 23:03:20,122 INFO    MainThread:14944 [wandb_run.py:_console_start():2101] atexit reg
+2023-02-18 23:03:20,122 INFO    MainThread:14944 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-02-18 23:03:20,123 INFO    MainThread:14944 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-02-18 23:03:20,123 INFO    MainThread:14944 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-02-18 23:03:20,124 INFO    MainThread:14944 [wandb_init.py:init():798] run started, returning control to user process
+2023-02-18 23:03:20,127 INFO    MainThread:14944 [wandb_watch.py:watch():51] Watching

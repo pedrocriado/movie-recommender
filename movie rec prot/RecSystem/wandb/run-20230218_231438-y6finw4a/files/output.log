@@ -1,0 +1,166 @@
+
+100%|██████████| 158/158 [00:00<00:00, 177.43it/s]
+Epoch 0 Loss: 3.1687:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 0 Validation Loss: 3.3338
+Outputting loss every 100 batches
+Validating every 1000 batches
+Epoch 0 Loss: 3.2808: 100%|██████████| 631/631 [00:04<00:00, 147.40it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+100%|██████████| 158/158 [00:00<00:00, 269.86it/s]
+Epoch 1 Loss: 2.2332:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 1 Validation Loss: 2.8229
+Outputting loss every 100 batches
+Validating every 1000 batches
+Epoch 1 Loss: 1.8601: 100%|██████████| 631/631 [00:04<00:00, 138.07it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+100%|██████████| 158/158 [00:01<00:00, 147.96it/s]
+Epoch 2 Loss: 1.3488:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 2 Validation Loss: 1.4998
+Outputting loss every 100 batches
+Validating every 1000 batches
+
+Epoch 2 Loss: 1.0432:  92%|█████████▏| 578/631 [00:04<00:00, 159.21it/s]
+Epoch 2 Loss: 1.0274: 100%|██████████| 631/631 [00:05<00:00, 120.80it/s]
+100%|██████████| 158/158 [00:00<00:00, 272.74it/s]
+Epoch 3 Loss: 0.7520:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 3 Validation Loss: 1.2221
+Outputting loss every 100 batches
+Validating every 1000 batches
+Epoch 3 Loss: 0.7693: 100%|██████████| 631/631 [00:05<00:00, 121.15it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+100%|██████████| 158/158 [00:00<00:00, 261.85it/s]
+Epoch 4 Loss: 0.7889:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 4 Validation Loss: 1.1310
+Outputting loss every 100 batches
+Validating every 1000 batches
+Epoch 4 Loss: 0.6346: 100%|██████████| 631/631 [00:04<00:00, 137.17it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 4 Validation Loss: 1.1297
+Epoch 5 Validation Loss: 1.0976
+Outputting loss every 100 batches
+Validating every 1000 batches
+100%|██████████| 158/158 [00:00<00:00, 281.62it/s]
+Epoch 5 Loss: 0.4155:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 5 Loss: 0.5450: 100%|██████████| 631/631 [00:05<00:00, 106.26it/s]
+
+100%|██████████| 158/158 [00:00<00:00, 293.71it/s]
+Epoch 6 Validation Loss: 1.0867
+Outputting loss every 100 batches
+Validating every 1000 batches
+Starting Epoch 6
+Epoch 6 Loss: 0.4915:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 6 Loss: 0.4733: 100%|██████████| 631/631 [00:04<00:00, 140.53it/s]
+100%|██████████| 158/158 [00:00<00:00, 271.96it/s]
+Epoch 7 Loss: 0.4022:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 7 Validation Loss: 1.0839
+Outputting loss every 100 batches
+Validating every 1000 batches
+
+Epoch 7 Loss: 0.4126:  73%|███████▎  | 462/631 [00:04<00:01, 150.65it/s]
+Epoch 7 Loss: 0.4194: 100%|██████████| 631/631 [00:05<00:00, 106.91it/s]
+100%|██████████| 158/158 [00:00<00:00, 282.11it/s]
+Epoch 8 Loss: 0.3025:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 8 Validation Loss: 1.0910
+Outputting loss every 100 batches
+Validating every 1000 batches
+Epoch 8 Loss: 0.3716: 100%|██████████| 631/631 [00:04<00:00, 128.48it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 8 Validation Loss: 1.0906
+Epoch 9 Validation Loss: 1.1003
+Outputting loss every 100 batches
+Validating every 1000 batches
+100%|██████████| 158/158 [00:00<00:00, 251.34it/s]
+Epoch 9 Loss: 0.3052:   0%|          | 0/631 [00:00<?, ?it/s]
+Epoch 9 Loss: 0.3357: 100%|██████████| 631/631 [00:05<00:00, 110.70it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+100%|██████████| 158/158 [00:00<00:00, 275.37it/s]
+Epoch 10 Loss: 0.2208:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 10 Validation Loss: 1.1069
+Outputting loss every 100 batches
+Validating every 1000 batches
+Starting Epoch 10
+Epoch 10 Loss: 0.3060: 100%|██████████| 631/631 [00:04<00:00, 138.89it/s]
+100%|██████████| 158/158 [00:01<00:00, 149.48it/s]
+Epoch 11 Loss: 0.3100:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 11 Validation Loss: 1.1172
+Outputting loss every 100 batches
+Validating every 1000 batches
+Epoch 11 Loss: 0.2810: 100%|██████████| 631/631 [00:04<00:00, 126.84it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+100%|██████████| 158/158 [00:00<00:00, 248.95it/s]
+Epoch 12 Loss: 0.2860:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 12 Validation Loss: 1.1265
+Outputting loss every 100 batches
+Validating every 1000 batches
+Epoch 12 Loss: 0.2604: 100%|██████████| 631/631 [00:05<00:00, 114.80it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+100%|██████████| 158/158 [00:00<00:00, 276.25it/s]
+Epoch 13 Loss: 0.2140:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 13 Validation Loss: 1.1351
+Outputting loss every 100 batches
+Validating every 1000 batches
+Epoch 13 Loss: 0.2435: 100%|██████████| 631/631 [00:04<00:00, 138.01it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+100%|██████████| 158/158 [00:00<00:00, 269.93it/s]
+Epoch 14 Loss: 0.1756:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 14 Validation Loss: 1.1452
+Outputting loss every 100 batches
+Validating every 1000 batches
+
+Epoch 14 Loss: 0.2228:  63%|██████▎   | 396/631 [00:03<00:02, 88.18it/s]
+Epoch 14 Loss: 0.2287: 100%|██████████| 631/631 [00:05<00:00, 116.22it/s]
+100%|██████████| 158/158 [00:00<00:00, 264.11it/s]
+Epoch 15 Loss: 0.1811:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 15 Validation Loss: 1.1512
+Outputting loss every 100 batches
+Validating every 1000 batches
+Epoch 15 Loss: 0.2167: 100%|██████████| 631/631 [00:04<00:00, 139.10it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 15 Validation Loss: 1.1502
+Epoch 16 Validation Loss: 1.1601
+Outputting loss every 100 batches
+Validating every 1000 batches
+100%|██████████| 158/158 [00:00<00:00, 251.94it/s]
+Epoch 16 Loss: 0.2578:   0%|          | 0/631 [00:00<?, ?it/s]
+Epoch 16 Loss: 0.2047: 100%|██████████| 631/631 [00:05<00:00, 106.60it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+100%|██████████| 158/158 [00:00<00:00, 240.50it/s]
+Epoch 17 Loss: 0.2214:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 17 Validation Loss: 1.1705
+Outputting loss every 100 batches
+Validating every 1000 batches
+Epoch 17 Loss: 0.1962: 100%|██████████| 631/631 [00:06<00:00, 98.47it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+100%|██████████| 158/158 [00:00<00:00, 200.70it/s]
+Epoch 18 Loss: 0.2451:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 18 Validation Loss: 1.1755
+Outputting loss every 100 batches
+Validating every 1000 batches
+Epoch 18 Loss: 0.1878: 100%|██████████| 631/631 [00:05<00:00, 121.28it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+100%|██████████| 158/158 [00:00<00:00, 246.17it/s]
+Epoch 19 Loss: 0.1885:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 19 Validation Loss: 1.1826
+Outputting loss every 100 batches
+Validating every 1000 batches
+Starting Epoch 19
+
+Epoch 19 Loss: 0.1811: 100%|██████████| 631/631 [00:04<00:00, 132.74it/s]

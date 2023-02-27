@@ -1,0 +1,47 @@
+
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 0 Validation Loss: 3.3311
+Outputting loss every 100 batches
+Validating every 1000 batches
+100%|██████████| 158/158 [00:00<00:00, 239.16it/s]
+100%|██████████| 158/158 [00:00<00:00, 429.87it/s]0<?, ?it/s]
+Epoch 0 Loss: 3.3587: 100%|██████████| 631/631 [00:03<00:00, 209.07it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 0 Validation Loss: 3.3283
+Epoch 1 Validation Loss: 3.3278
+Outputting loss every 100 batches
+Validating every 1000 batches
+100%|██████████| 158/158 [00:00<00:00, 400.48it/s]
+Epoch 1 Loss: 3.1819:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 1 Loss: 3.3120: 100%|██████████| 631/631 [00:03<00:00, 205.43it/s]
+100%|██████████| 158/158 [00:00<00:00, 430.66it/s]
+Epoch 2 Loss: 3.5958:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 2 Validation Loss: 3.3170
+Outputting loss every 100 batches
+Validating every 1000 batches
+Epoch 2 Loss: 3.2442: 100%|██████████| 631/631 [00:03<00:00, 205.68it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 2 Validation Loss: 3.3164
+Epoch 3 Validation Loss: 3.2653
+Outputting loss every 100 batches
+Validating every 1000 batches
+100%|██████████| 158/158 [00:00<00:00, 435.14it/s]
+Epoch 3 Loss: 2.4110:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 3 Loss: 3.0970: 100%|██████████| 631/631 [00:03<00:00, 208.04it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 4 Validation Loss: 3.1017
+Outputting loss every 100 batches
+Validating every 1000 batches
+100%|██████████| 158/158 [00:00<00:00, 491.02it/s]
+Epoch 4 Loss: 2.9018:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 4 Loss: 2.7793: 100%|██████████| 631/631 [00:03<00:00, 203.84it/s]
+Traceback (most recent call last):
+  File "C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\main.py", line 81, in <module>
+    torch.save(model.state_dact(), 'model.pt')
+  File "C:\Users\13059\3D Objects\kdfned\lib\site-packages\torch\nn\modules\module.py", line 1207, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'MatrixFactorization' object has no attribute 'state_dact'

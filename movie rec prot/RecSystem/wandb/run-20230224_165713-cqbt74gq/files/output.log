@@ -1,0 +1,36 @@
+
+100%|██████████| 158/158 [00:01<00:00, 134.32it/s]
+Epoch 0 Loss: 3.0030:   0%|          | 0/631 [00:00<?, ?it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Epoch 0 Validation Loss: 3.3417
+Outputting loss every 100 batches
+Validating every 1000 batches
+Starting Epoch 0
+Epoch 0 Loss: 3.3581: 100%|██████████| 631/631 [00:05<00:00, 120.63it/s]
+  0%|          | 0/158 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\main.py", line 69, in <module>
+    evaluate(val_dataloader=val_dataloader, model=model, criterion=criterion, epoch=epoch, opt=opt)
+  File "C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\train_and_eval.py", line 37, in evaluate
+    wandb.log({"Predictions" : wandb.Table(dataframe=pd.DataFrame({
+  File "C:\Users\13059\3D Objects\kdfned\lib\site-packages\wandb\sdk\wandb_run.py", line 371, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\13059\3D Objects\kdfned\lib\site-packages\wandb\sdk\wandb_run.py", line 334, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\13059\3D Objects\kdfned\lib\site-packages\wandb\sdk\wandb_run.py", line 1713, in log
+    self._log(data=data, step=step, commit=commit)
+  File "C:\Users\13059\3D Objects\kdfned\lib\site-packages\wandb\sdk\wandb_run.py", line 1495, in _log
+    self._partial_history_callback(data, step, commit)
+  File "C:\Users\13059\3D Objects\kdfned\lib\site-packages\wandb\sdk\wandb_run.py", line 1365, in _partial_history_callback
+    self._backend.interface.publish_partial_history(
+  File "C:\Users\13059\3D Objects\kdfned\lib\site-packages\wandb\sdk\interface\interface.py", line 568, in publish_partial_history
+    data = history_dict_to_json(run, data, step=user_step, ignore_copy_err=True)
+  File "C:\Users\13059\3D Objects\kdfned\lib\site-packages\wandb\sdk\data_types\utils.py", line 52, in history_dict_to_json
+    payload[key] = val_to_json(
+  File "C:\Users\13059\3D Objects\kdfned\lib\site-packages\wandb\sdk\data_types\utils.py", line 160, in val_to_json
+    val.bind_to_run(run, key, namespace)
+  File "C:\Users\13059\3D Objects\kdfned\lib\site-packages\wandb\data_types.py", line 527, in bind_to_run
+    with codecs.open(tmp_path, "w", encoding="utf-8") as fp:
+  File "C:\Users\13059\3D Objects\kdfned\lib\codecs.py", line 905, in open
+    file = builtins.open(filename, mode, buffering)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\13059\\AppData\\Local\\Temp\\tmphjh1rds2wandb-media\\2rsllk3s.table.json'

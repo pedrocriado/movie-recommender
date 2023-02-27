@@ -1,0 +1,527 @@
+2023-02-22 23:30:49,054 INFO    StreamThr :15712 [internal.py:wandb_internal():87] W&B internal server running at pid: 15712, started at: 2023-02-22 23:30:49.053418
+2023-02-22 23:30:49,056 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: status
+2023-02-22 23:30:49,066 INFO    WriterThread:15712 [datastore.py:open_for_write():85] open: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\run-505kz0li.wandb
+2023-02-22 23:30:49,067 DEBUG   SenderThread:15712 [sender.py:send():336] send: header
+2023-02-22 23:30:49,070 DEBUG   SenderThread:15712 [sender.py:send():336] send: run
+2023-02-22 23:30:50,023 INFO    SenderThread:15712 [dir_watcher.py:__init__():216] watching files in: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files
+2023-02-22 23:30:50,024 INFO    SenderThread:15712 [sender.py:_start_run_threads():1067] run started: 505kz0li with start time 1677126649.059428
+2023-02-22 23:30:50,024 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:30:50,026 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:30:50,032 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: check_version
+2023-02-22 23:30:50,033 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: check_version
+2023-02-22 23:30:50,409 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: run_start
+2023-02-22 23:30:50,422 DEBUG   HandlerThread:15712 [system_info.py:__init__():31] System info init
+2023-02-22 23:30:50,423 DEBUG   HandlerThread:15712 [system_info.py:__init__():46] System info init done
+2023-02-22 23:30:50,423 INFO    HandlerThread:15712 [system_monitor.py:start():151] Starting system monitor
+2023-02-22 23:30:50,423 INFO    SystemMonitor:15712 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-22 23:30:50,423 INFO    HandlerThread:15712 [system_monitor.py:probe():172] Collecting system info
+2023-02-22 23:30:50,427 INFO    SystemMonitor:15712 [interfaces.py:start():168] Started cpu
+2023-02-22 23:30:50,428 DEBUG   HandlerThread:15712 [system_info.py:probe():195] Probing system
+2023-02-22 23:30:50,428 INFO    SystemMonitor:15712 [interfaces.py:start():168] Started disk
+2023-02-22 23:30:50,429 INFO    SystemMonitor:15712 [interfaces.py:start():168] Started memory
+2023-02-22 23:30:50,440 INFO    SystemMonitor:15712 [interfaces.py:start():168] Started network
+2023-02-22 23:30:50,442 DEBUG   HandlerThread:15712 [git.py:repo():40] git repository is invalid
+2023-02-22 23:30:50,442 DEBUG   HandlerThread:15712 [system_info.py:probe():241] Probing system done
+2023-02-22 23:30:50,442 DEBUG   HandlerThread:15712 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.19044-SP0', 'python': '3.9.12', 'heartbeatAt': '2023-02-23T04:30:50.428226', 'startedAt': '2023-02-23T04:30:48.993649', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\13059\\OneDrive\\Desktop\\movie rec prot(1)\\RecSystem\\main.py', 'codePath': 'main.py', 'host': 'LAPTOP-KC88QO3J', 'username': '13059', 'executable': 'C:\\Users\\13059\\3D Objects\\kdfned\\python.exe', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2103.0, 'min': 0.0, 'max': 2304.0}, 'cpu_freq_per_core': [{'current': 2103.0, 'min': 0.0, 'max': 2304.0}], 'disk': {'total': 237.22753524780273, 'used': 234.31518173217773}, 'memory': {'total': 7.818592071533203}}
+2023-02-22 23:30:50,442 INFO    HandlerThread:15712 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-22 23:30:50,442 INFO    HandlerThread:15712 [system_monitor.py:probe():185] Publishing system info
+2023-02-22 23:30:50,443 DEBUG   HandlerThread:15712 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-22 23:30:50,444 DEBUG   HandlerThread:15712 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-22 23:30:50,444 DEBUG   HandlerThread:15712 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-02-22 23:30:51,040 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\requirements.txt
+2023-02-22 23:30:51,041 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\wandb-summary.json
+2023-02-22 23:30:51,041 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\conda-environment.yaml
+2023-02-22 23:31:06,179 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\conda-environment.yaml
+2023-02-22 23:31:06,247 DEBUG   HandlerThread:15712 [system_info.py:_save_conda():86] Saving conda packages done
+2023-02-22 23:31:06,249 INFO    HandlerThread:15712 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-22 23:31:06,310 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: status_report
+2023-02-22 23:31:06,310 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-22 23:31:06,310 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: status_report
+2023-02-22 23:31:06,311 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-22 23:31:06,311 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: status_report
+2023-02-22 23:31:06,311 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-22 23:31:06,312 DEBUG   SenderThread:15712 [sender.py:send():336] send: files
+2023-02-22 23:31:06,312 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-02-22 23:31:06,324 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-22 23:31:06,324 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: stop_status
+2023-02-22 23:31:06,458 DEBUG   SenderThread:15712 [sender.py:send():336] send: telemetry
+2023-02-22 23:31:06,458 DEBUG   SenderThread:15712 [sender.py:send():336] send: telemetry
+2023-02-22 23:31:06,458 DEBUG   SenderThread:15712 [sender.py:send():336] send: run
+2023-02-22 23:31:06,531 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:06,640 INFO    SenderThread:15712 [sender.py:send_run():944] updated run: 505kz0li
+2023-02-22 23:31:06,641 DEBUG   SenderThread:15712 [sender.py:send():336] send: telemetry
+2023-02-22 23:31:06,651 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: log_artifact
+2023-02-22 23:31:06,847 INFO    wandb-upload_0:15712 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmppm_7q7s2wandb\bqespipo-wandb-metadata.json
+2023-02-22 23:31:07,097 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:07,187 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\config.yaml
+2023-02-22 23:31:07,187 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\conda-environment.yaml
+2023-02-22 23:31:07,188 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:07,188 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_0_8712d4ef456f7f03f545.table.json
+2023-02-22 23:31:07,189 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\wandb-metadata.json
+2023-02-22 23:31:07,189 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:07,189 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media
+2023-02-22 23:31:07,314 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:07,353 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:07,483 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:07,510 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:07,723 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:08,077 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:08,113 INFO    wandb-upload_0:15712 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmp221v2l85
+2023-02-22 23:31:08,191 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_3_9b8f21f6f4f41490008e.table.json
+2023-02-22 23:31:08,191 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:08,405 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:08,731 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:09,086 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:09,193 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:09,423 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:09,578 INFO    SenderThread:15712 [sender.py:send_request_log_artifact():1381] logged artifact run-505kz0li-Predictions - {'id': 'QXJ0aWZhY3Q6Mzc5MTk2Mjkz', 'digest': 'a67264c882a869f8f4bef3e3239d594a', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0Mjk5Njg4', 'latestArtifact': None}, 'version': 'latest'}
+2023-02-22 23:31:09,578 DEBUG   SenderThread:15712 [sender.py:send():336] send: files
+2023-02-22 23:31:09,578 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: status_report
+2023-02-22 23:31:09,578 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file media\table\Predictions_0_8712d4ef456f7f03f545.table.json with policy now
+2023-02-22 23:31:09,580 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:09,581 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:09,582 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:09,583 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:09,583 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:09,584 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:09,586 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:09,588 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:09,590 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:09,591 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: log_artifact
+2023-02-22 23:31:09,750 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:10,019 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:10,020 INFO    wandb-upload_0:15712 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmppm_7q7s2wandb\18q9jaiw-media/table/Predictions_0_8712d4ef456f7f03f545.table.json
+2023-02-22 23:31:10,046 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:10,132 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:10,139 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:10,205 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\wandb-summary.json
+2023-02-22 23:31:10,206 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_11_331e00114c670ed50de6.table.json
+2023-02-22 23:31:10,206 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:10,291 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:10,304 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:10,544 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:10,601 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:10,839 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:10,988 INFO    wandb-upload_0:15712 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmpl1qhobiv
+2023-02-22 23:31:11,178 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:11,218 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:11,218 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_14_fe5f22f8759c470642f0.table.json
+2023-02-22 23:31:11,219 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:11,532 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:11,876 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:12,121 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:12,123 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:12,235 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:12,238 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:12,581 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:12,915 INFO    SenderThread:15712 [sender.py:send_request_log_artifact():1381] logged artifact run-505kz0li-Predictions - {'id': 'QXJ0aWZhY3Q6Mzc5MTk2MzE1', 'digest': '9422dd35b552b390f6f17e9be40f64dd', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0Mjk5Njg4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzc5MTk2Mjkz', 'versionIndex': 0}}, 'version': 'latest'}
+2023-02-22 23:31:12,915 DEBUG   SenderThread:15712 [sender.py:send():336] send: files
+2023-02-22 23:31:12,915 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file media\table\Predictions_3_9b8f21f6f4f41490008e.table.json with policy now
+2023-02-22 23:31:12,917 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:12,919 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:12,920 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:12,923 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:12,924 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:12,925 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:12,926 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:12,927 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:12,927 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:12,932 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:12,934 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:12,935 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:12,936 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:12,936 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:12,936 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:12,939 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:12,939 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:12,939 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:12,940 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:12,940 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:12,940 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:12,941 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:12,942 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:12,942 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:12,943 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:12,944 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: log_artifact
+2023-02-22 23:31:13,179 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:13,208 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:13,267 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\wandb-summary.json
+2023-02-22 23:31:13,267 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_22_e85917af84ae14b9bcc4.table.json
+2023-02-22 23:31:13,268 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:13,337 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:13,342 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:13,410 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:13,424 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:13,432 INFO    wandb-upload_0:15712 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmppm_7q7s2wandb\0mxg6j1o-media/table/Predictions_3_9b8f21f6f4f41490008e.table.json
+2023-02-22 23:31:13,585 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:13,602 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:13,799 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:14,155 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:14,278 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:14,278 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_25_23b2ca6fa9dfd6ac9a3a.table.json
+2023-02-22 23:31:14,279 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:14,510 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:14,860 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:15,191 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:15,291 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:15,432 INFO    wandb-upload_0:15712 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmp96fojrvd
+2023-02-22 23:31:15,527 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:15,907 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:16,480 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:16,526 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:16,676 INFO    SenderThread:15712 [sender.py:send_request_log_artifact():1381] logged artifact run-505kz0li-Predictions - {'id': 'QXJ0aWZhY3Q6Mzc5MTk2MzQ3', 'digest': 'eff339c36c96b82fd51bf1cac8e05f95', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0Mjk5Njg4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzc5MTk2MzE1', 'versionIndex': 1}}, 'version': 'latest'}
+2023-02-22 23:31:16,677 DEBUG   SenderThread:15712 [sender.py:send():336] send: files
+2023-02-22 23:31:16,677 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file media\table\Predictions_11_331e00114c670ed50de6.table.json with policy now
+2023-02-22 23:31:16,677 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: status_report
+2023-02-22 23:31:16,678 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:16,679 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:16,680 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:16,681 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:16,682 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:16,682 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:16,684 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:16,684 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:16,685 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:16,685 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: log_artifact
+2023-02-22 23:31:16,755 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:16,768 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:16,774 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:16,777 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:16,936 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:16,961 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:17,134 INFO    wandb-upload_0:15712 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmppm_7q7s2wandb\vkqdtomy-media/table/Predictions_11_331e00114c670ed50de6.table.json
+2023-02-22 23:31:17,154 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:17,316 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\wandb-summary.json
+2023-02-22 23:31:17,317 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_33_e10a5f75411959f5a374.table.json
+2023-02-22 23:31:17,317 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_36_330f4777447323b66d89.table.json
+2023-02-22 23:31:17,318 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:17,519 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:17,541 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:17,542 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:17,853 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:18,179 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:18,330 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:18,494 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:18,820 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:19,172 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:19,332 INFO    wandb-upload_0:15712 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmppmcpyudg
+2023-02-22 23:31:19,334 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:19,436 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:19,462 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:19,641 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:19,653 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:19,811 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:19,844 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:19,907 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:19,913 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:20,070 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:20,349 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_47_429bd25159cfc394a380.table.json
+2023-02-22 23:31:20,350 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_44_917d4b798a3c9bef7f22.table.json
+2023-02-22 23:31:20,350 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:20,421 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:20,642 INFO    SenderThread:15712 [sender.py:send_request_log_artifact():1381] logged artifact run-505kz0li-Predictions - {'id': 'QXJ0aWZhY3Q6Mzc5MTk2MzY3', 'digest': '8ce1f9f40aa70e285a674ea7be327bd4', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0Mjk5Njg4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzc5MTk2MzQ3', 'versionIndex': 2}}, 'version': 'latest'}
+2023-02-22 23:31:20,643 DEBUG   SenderThread:15712 [sender.py:send():336] send: files
+2023-02-22 23:31:20,643 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file media\table\Predictions_14_fe5f22f8759c470642f0.table.json with policy now
+2023-02-22 23:31:20,644 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:20,644 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:20,647 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:20,649 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:20,649 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:20,651 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:20,652 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:20,652 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:20,658 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:20,659 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:20,659 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:20,661 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:20,661 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:20,662 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:20,663 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:20,664 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:20,664 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:20,666 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:20,667 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:20,667 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:20,668 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:20,669 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:20,669 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:20,672 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:20,672 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: log_artifact
+2023-02-22 23:31:20,777 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:21,095 INFO    wandb-upload_0:15712 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmppm_7q7s2wandb\x384rjkw-media/table/Predictions_14_fe5f22f8759c470642f0.table.json
+2023-02-22 23:31:21,155 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:21,330 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-22 23:31:21,331 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-22 23:31:21,363 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\wandb-summary.json
+2023-02-22 23:31:21,512 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:21,771 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:21,772 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:21,865 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:22,115 INFO    wandb-upload_1:15712 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmpsn1921l0
+2023-02-22 23:31:22,185 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:22,379 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:22,442 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:22,471 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:22,656 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:22,668 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:22,827 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:22,850 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:22,978 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:22,982 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:23,045 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:23,151 INFO    SenderThread:15712 [sender.py:send_request_log_artifact():1381] logged artifact run-505kz0li-Predictions - {'id': 'QXJ0aWZhY3Q6Mzc5MTk2Mzk4', 'digest': '8671368264ac9c1aa64139ceaf56464d', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0Mjk5Njg4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzc5MTk2MzY3', 'versionIndex': 3}}, 'version': 'latest'}
+2023-02-22 23:31:23,156 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: status_report
+2023-02-22 23:31:23,296 DEBUG   SenderThread:15712 [sender.py:send():336] send: files
+2023-02-22 23:31:23,296 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file media\table\Predictions_22_e85917af84ae14b9bcc4.table.json with policy now
+2023-02-22 23:31:23,296 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:23,297 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:23,299 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:23,299 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:23,300 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:23,303 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:23,304 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:23,304 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:23,306 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:23,307 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: log_artifact
+2023-02-22 23:31:23,394 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\config.yaml
+2023-02-22 23:31:23,394 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:23,394 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\wandb-summary.json
+2023-02-22 23:31:23,395 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_58_467c5c41003478a8eb5f.table.json
+2023-02-22 23:31:23,395 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_55_457bdb156acccc3f6edf.table.json
+2023-02-22 23:31:23,395 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:23,431 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:23,766 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:23,776 INFO    wandb-upload_0:15712 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmppm_7q7s2wandb\0oadlo5k-media/table/Predictions_22_e85917af84ae14b9bcc4.table.json
+2023-02-22 23:31:24,096 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:24,409 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:24,434 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:24,765 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:25,093 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:25,344 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:25,371 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:25,411 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:25,413 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_66_329bb60796c49594b24b.table.json
+2023-02-22 23:31:25,413 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:25,453 INFO    wandb-upload_1:15712 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmpljisq2jk
+2023-02-22 23:31:25,568 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:25,578 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:25,721 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:25,748 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:25,940 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:25,944 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:25,949 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:26,280 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:26,377 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-22 23:31:26,425 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_69_29328288f36672e0cbf1.table.json
+2023-02-22 23:31:26,426 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:26,622 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:26,667 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:26,669 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:26,702 INFO    SenderThread:15712 [sender.py:send_request_log_artifact():1381] logged artifact run-505kz0li-Predictions - {'id': 'QXJ0aWZhY3Q6Mzc5MTk2NDMw', 'digest': '291d03de4eadde1eb48467d3f6142a33', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0Mjk5Njg4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzc5MTk2Mzk4', 'versionIndex': 4}}, 'version': 'latest'}
+2023-02-22 23:31:26,702 DEBUG   SenderThread:15712 [sender.py:send():336] send: files
+2023-02-22 23:31:26,702 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file media\table\Predictions_25_23b2ca6fa9dfd6ac9a3a.table.json with policy now
+2023-02-22 23:31:26,703 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:26,704 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:26,706 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:26,707 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:26,707 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:26,709 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:26,710 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:26,711 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:26,713 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:26,714 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:26,714 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:26,716 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:26,721 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:26,721 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:26,724 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:26,725 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:26,725 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:26,726 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:26,727 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:26,728 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:26,730 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:26,730 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:26,730 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:26,732 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:26,733 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: log_artifact
+2023-02-22 23:31:26,982 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:27,220 INFO    wandb-upload_0:15712 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmppm_7q7s2wandb\iq86om2x-media/table/Predictions_25_23b2ca6fa9dfd6ac9a3a.table.json
+2023-02-22 23:31:27,317 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:27,440 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\wandb-summary.json
+2023-02-22 23:31:27,645 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:27,997 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:28,072 INFO    wandb-upload_1:15712 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmpiiq4q9gu
+2023-02-22 23:31:28,318 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:28,365 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:28,451 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:28,451 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_77_f838f89d15405b0d2dee.table.json
+2023-02-22 23:31:28,451 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:28,546 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:28,557 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:28,763 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:28,790 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:29,001 INFO    SenderThread:15712 [sender.py:send_request_log_artifact():1381] logged artifact run-505kz0li-Predictions - {'id': 'QXJ0aWZhY3Q6Mzc5MTk2NDQ4', 'digest': '3520490a0baf14bf9f7d166a5f09ed0a', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0Mjk5Njg4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzc5MTk2NDMw', 'versionIndex': 5}}, 'version': 'latest'}
+2023-02-22 23:31:29,001 DEBUG   SenderThread:15712 [sender.py:send():336] send: files
+2023-02-22 23:31:29,001 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: status_report
+2023-02-22 23:31:29,001 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file media\table\Predictions_33_e10a5f75411959f5a374.table.json with policy now
+2023-02-22 23:31:29,003 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:29,004 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:29,006 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:29,007 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:29,007 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:29,009 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:29,010 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:29,012 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:29,018 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:29,019 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: log_artifact
+2023-02-22 23:31:29,037 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:29,330 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:29,339 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:29,467 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:29,468 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\wandb-summary.json
+2023-02-22 23:31:29,468 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_80_dc75e226ba15add16a34.table.json
+2023-02-22 23:31:29,469 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:29,508 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:29,527 INFO    wandb-upload_0:15712 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmppm_7q7s2wandb\2b5i80o0-media/table/Predictions_33_e10a5f75411959f5a374.table.json
+2023-02-22 23:31:29,879 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:30,239 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:30,480 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:30,489 INFO    wandb-upload_1:15712 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmp4lhjgycj
+2023-02-22 23:31:30,593 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:30,922 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:31,212 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:31,214 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:31,277 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:31,429 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-22 23:31:31,493 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:31,599 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:31,605 INFO    SenderThread:15712 [sender.py:send_request_log_artifact():1381] logged artifact run-505kz0li-Predictions - {'id': 'QXJ0aWZhY3Q6Mzc5MTk2NDYy', 'digest': 'f543be4d6eea0d2c8ff4c60ec757a057', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0Mjk5Njg4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzc5MTk2NDQ4', 'versionIndex': 6}}, 'version': 'latest'}
+2023-02-22 23:31:31,605 DEBUG   SenderThread:15712 [sender.py:send():336] send: files
+2023-02-22 23:31:31,606 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file media\table\Predictions_36_330f4777447323b66d89.table.json with policy now
+2023-02-22 23:31:31,609 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:31,610 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:31,620 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:31,622 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:31,622 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:31,625 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:31,627 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:31,627 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:31,634 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:31,635 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:31,636 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:31,638 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:31,643 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:31,646 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:31,647 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:31,649 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:31,650 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:31,650 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:31,652 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:31,652 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:31,652 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:31,654 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:31,654 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:31,654 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:31,656 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:31,656 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: log_artifact
+2023-02-22 23:31:31,841 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:31,856 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:32,084 INFO    wandb-upload_0:15712 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmppm_7q7s2wandb\3xr6ci1f-media/table/Predictions_36_330f4777447323b66d89.table.json
+2023-02-22 23:31:32,508 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\wandb-summary.json
+2023-02-22 23:31:32,509 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_88_03a796a51d4ab02943ac.table.json
+2023-02-22 23:31:32,509 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:33,146 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:33,165 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:33,403 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:33,520 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:33,521 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_91_d8f820e7249ef406596c.table.json
+2023-02-22 23:31:33,521 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:33,744 INFO    wandb-upload_1:15712 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmpadpprz4a
+2023-02-22 23:31:33,760 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:33,783 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:33,792 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:34,132 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:34,482 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:34,524 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:34,640 INFO    SenderThread:15712 [sender.py:send_request_log_artifact():1381] logged artifact run-505kz0li-Predictions - {'id': 'QXJ0aWZhY3Q6Mzc5MTk2NDc4', 'digest': '4e691ca769bfce78b31586b8d52e467b', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0Mjk5Njg4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzc5MTk2NDYy', 'versionIndex': 7}}, 'version': 'latest'}
+2023-02-22 23:31:34,641 DEBUG   SenderThread:15712 [sender.py:send():336] send: files
+2023-02-22 23:31:34,641 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: status_report
+2023-02-22 23:31:34,641 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file media\table\Predictions_44_917d4b798a3c9bef7f22.table.json with policy now
+2023-02-22 23:31:34,643 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:34,643 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:34,645 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:34,646 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:34,647 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:34,649 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:34,650 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:34,650 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:34,652 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:34,653 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: log_artifact
+2023-02-22 23:31:34,839 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:35,113 INFO    wandb-upload_0:15712 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmppm_7q7s2wandb\7qxmkrzv-media/table/Predictions_44_917d4b798a3c9bef7f22.table.json
+2023-02-22 23:31:35,219 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:35,530 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:35,531 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\wandb-summary.json
+2023-02-22 23:31:35,598 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:35,902 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:35,926 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:35,958 INFO    wandb-upload_1:15712 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmpy0ujmhux
+2023-02-22 23:31:36,127 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:36,142 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:36,289 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-22 23:31:36,319 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:36,458 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-22 23:31:36,538 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:36,538 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_99_aa9ba9520f269c3655db.table.json
+2023-02-22 23:31:36,538 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table\Predictions_102_3425223fa2f93cb6fc00.table.json
+2023-02-22 23:31:36,539 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\media\table
+2023-02-22 23:31:36,574 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:36,773 INFO    SenderThread:15712 [sender.py:send_request_log_artifact():1381] logged artifact run-505kz0li-Predictions - {'id': 'QXJ0aWZhY3Q6Mzc5MTk2NTAx', 'digest': 'c0ea0db36c8cfc605b2ccc9af34341dd', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0Mjk5Njg4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzc5MTk2NDc4', 'versionIndex': 8}}, 'version': 'latest'}
+2023-02-22 23:31:36,774 DEBUG   SenderThread:15712 [sender.py:send():336] send: files
+2023-02-22 23:31:36,774 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file media\table\Predictions_47_429bd25159cfc394a380.table.json with policy now
+2023-02-22 23:31:36,775 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:36,775 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:36,778 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:36,779 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:36,779 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:36,782 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:36,783 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:36,783 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:36,789 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:36,790 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:36,791 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:36,793 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:36,793 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:36,793 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:36,796 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:36,797 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:36,797 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:36,799 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:36,800 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:36,801 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:36,803 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:36,804 DEBUG   SenderThread:15712 [sender.py:send():336] send: history
+2023-02-22 23:31:36,804 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: summary_record
+2023-02-22 23:31:36,806 INFO    SenderThread:15712 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-22 23:31:36,807 DEBUG   SenderThread:15712 [sender.py:send_request():363] send_request: log_artifact
+2023-02-22 23:31:37,000 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:37,247 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:37,248 INFO    wandb-upload_0:15712 [upload_job.py:push():138] Uploaded file C:\Users\13059\AppData\Local\Temp\tmppm_7q7s2wandb\8z0404mk-media/table/Predictions_47_429bd25159cfc394a380.table.json
+2023-02-22 23:31:37,259 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:37,445 DEBUG   HandlerThread:15712 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-22 23:31:37,545 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\wandb-summary.json
+2023-02-22 23:31:38,498 WARNING StreamThr :15712 [internal.py:is_dead():415] Internal process exiting, parent pid 20784 disappeared
+2023-02-22 23:31:38,499 ERROR   StreamThr :15712 [internal.py:wandb_internal():153] Internal process shutdown.
+2023-02-22 23:31:38,559 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:38,627 INFO    wandb-upload_1:15712 [upload_job.py:push():96] Uploaded file C:\Users\13059\AppData\Local\wandb\wandb\artifacts\staging\tmp8l1wzxip
+2023-02-22 23:31:38,686 ERROR   memory    :15712 [interfaces.py:monitor():129] Failed to sample metric: psutil.NoSuchProcess process no longer exists (pid=20784)
+2023-02-22 23:31:38,694 ERROR   memory    :15712 [interfaces.py:monitor():129] Failed to sample metric: psutil.NoSuchProcess process no longer exists (pid=20784)
+2023-02-22 23:31:38,699 ERROR   cpu       :15712 [interfaces.py:monitor():129] Failed to sample metric: psutil.NoSuchProcess process no longer exists (pid=20784)
+2023-02-22 23:31:38,703 ERROR   cpu       :15712 [interfaces.py:monitor():129] Failed to sample metric: psutil.NoSuchProcess process no longer exists (pid=20784)
+2023-02-22 23:31:38,724 INFO    HandlerThread:15712 [handler.py:finish():841] shutting down handler
+2023-02-22 23:31:38,739 INFO    WriterThread:15712 [datastore.py:close():299] close: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\run-505kz0li.wandb
+2023-02-22 23:31:39,583 INFO    Thread-17 :15712 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13059\OneDrive\Desktop\movie rec prot(1)\RecSystem\wandb\run-20230222_233048-505kz0li\files\output.log
+2023-02-22 23:31:39,682 INFO    SenderThread:15712 [sender.py:send_request_log_artifact():1381] logged artifact run-505kz0li-Predictions - {'id': 'QXJ0aWZhY3Q6Mzc5MTk2NTIw', 'digest': '6331102daa5faeef50d6a700395c2305', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0Mjk5Njg4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzc5MTk2NTAx', 'versionIndex': 9}}, 'version': 'latest'}
+2023-02-22 23:31:39,682 INFO    SenderThread:15712 [sender.py:finish():1493] shutting down sender
+2023-02-22 23:31:40,025 INFO    MainThread:15712 [internal.py:handle_exit():77] Internal process exited
